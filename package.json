@@ -1,0 +1,35 @@
+{
+  "name": "toml-rc",
+  "version": "0.0.0",
+  "description": "TOML based clone of dominictarr's `rc` module",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@iarna/toml": "^2.2.5",
+    "deep-extend": "^0.6.0",
+    "minimist": "^1.2.5",
+    "nanoassert": "^2.0.0",
+    "object-tojson": "^3.0.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4",
+    "tape": "^5.0.1"
+  },
+  "scripts": {
+    "pretest": "standard",
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilbayes/toml-rc.git"
+  },
+  "keywords": [],
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilbayes/toml-rc/issues"
+  },
+  "homepage": "https://github.com/emilbayes/toml-rc#readme"
+}
