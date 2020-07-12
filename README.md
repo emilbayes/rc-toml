@@ -1,11 +1,11 @@
-# `toml-rc`
+# `rc-toml`
 
 > TOML based clone of dominictarr's `rc` module
 
 ## Usage
 
 ```js
-const rc = require('toml-rc')
+const rc = require('rc-toml')
 // Read config
 const config = rc('app')
 
@@ -95,7 +95,7 @@ Write `config` to `configPath` with optiona `stringify`. `stringify` defaults to
 ## Install
 
 ```sh
-npm install toml-rc
+npm install rc-toml
 ```
 
 ## License
